@@ -1,0 +1,83 @@
+/* Header */
+.header {
+  background-color: #0f172a;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+/* Main */
+.main {
+  padding: 50px 40px;
+}
+
+.hero h1 {
+  font-size: 34px;
+}
+
+.hero p {
+  max-width: 650px;
+  line-height: 1.6;
+  color: #334155;
+}
+
+/* Tombol */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 22px;
+  background-color: #0f172a; /* sama dengan header */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #020617;
+}
+
+/* Materi */
+.materi {
+  margin-top: 50px;
+}
+
+.materi h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.materi ul li {
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 20px 40px;
+  background-color: #020617;
+  color: #cbd5f5;
+  text-align: center;
+  font-size: 14px;
+}

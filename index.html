@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cuitprog | halaman utama</title>
+</head>
+<body>
+    <header class="header">
+  <div class="logo">Cuitprog</div>
+
+  <nav class="nav">
+    <a href="#">Home</a>
+    <a href="#">Tutorial</a>
+    <a href="#">Tentang</a>
+  </nav>
+</header>
+
+<main class="main">
+
+  <section class="hero">
+    <h1>Cuitprog</h1>
+    <p>
+      Cuitprog adalah website yang menyediakan berbagai tutorial teknis
+      seperti instalasi sistem operasi dan pengelolaan server dasar.
+    </p>
+
+    <a href="tutorial.html" class="btn">
+      Lihat Tutorial
+    </a>
+  </section>
+
+  <section class="materi">
+    <h2>Materi yang Dibahas</h2>
+    <ul>
+      <li>Instalasi Debian 12 di VirtualBox</li>
+      <li>Membuat USB Bootable Windows 11</li>
+      <li>Membangun Web Server Sederhana di Debian 12</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Cuitprog. Semua hak dilindungi.</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
